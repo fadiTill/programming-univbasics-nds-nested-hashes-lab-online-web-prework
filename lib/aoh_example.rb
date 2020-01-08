@@ -32,7 +32,7 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  aoh_update = CHILDREN [0]{
+  aoh_update = CHILDREN [0][0] = ["new value"]
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
 end
